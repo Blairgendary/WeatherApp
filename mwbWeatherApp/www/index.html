@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="css/weather-icons.min.css">
+        <link rel="stylesheet" href="css/weather-icons-wind.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Blank App</title>
+    </head>
+    <body>
+    
+        <header>
+            <h3 class="location">lethbridge, ab</h3>
+        </header>
+        <main class= "main">
+        <h4 class= "temp" id="temp"></h4>
+        <div class="weather">
+        <section class="circle">
+            <section class= "icon">
+            <i id="icon" class=""></i>
+            </section>
+        </section>
+        </div>
+        <h4 class="description" id="description"></h4>
+        <div class = "wrapper">
+        <section class="parent">
+            <section id= "mintemp" class="child1"></section>
+            <section id= "maxtemp" class="child2"></section>
+            <section id= "wind" class="child3"></section>
+            <section id="humidity" class="child4"></section>
+        </section>
+        </div>
+        </main>
+        <script type="text/javascript" src="js/weatherapp.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
